@@ -1,0 +1,107 @@
+@media screen and (max-width: 992px) {
+
+  .iconPetFilter {
+    border: 2px solid #D3D3D3;
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 190px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filterItem {
+    margin-left: 20px;
+  }
+
+  .filterWrapMobile {
+    align-items: flex-start;
+  }
+
+  .iconFilterText {
+    margin-bottom: 20px;
+  }
+
+  #marseilleHebergements {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .populairesBloc {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+    padding: 5%;
+  }
+
+  .hebergementsBloc {
+    flex: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 50px;
+    padding: 5%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .linkSize2 {
+    width: 90%;
+  }
+
+  .linkSizeG {
+    margin-left: 20%;
+  }
+
+  .hebergementsBloc {
+    height: auto;
+    margin-top: 200px;
+  }
+
+  .card1 {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .card2 {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .hebergementsCube {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .hebergementsDetailsCube {
+    min-height: auto;
+  }
+
+  .activitesBloc {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .activitesCube {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .activitesImage {
+    height: 300px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 20px;
+  }
+
+  .footBlocMarge {
+    margin-top: 233px;
+  }
+}
