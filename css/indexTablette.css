@@ -1,7 +1,6 @@
 @media screen and (max-width: 992px) {
-
   .iconPetFilter {
-    border: 2px solid #D3D3D3;
+    border: 2px solid #d3d3d3;
     margin-left: -2px;
     border-radius: 25px;
     width: 190px;
@@ -45,7 +44,6 @@
     padding: 5%;
   }
 }
-
 
 @media screen and (max-width: 800px) {
   .linkSize2 {

@@ -1,25 +1,22 @@
-
-
 @media screen and (max-width: 768px) {
-
-  .writeSize{
+  .writeSize {
     font-size: large;
     font-weight: bold;
     text-align: center;
   }
 
   .economicIconFilter {
-    border: 2px solid 	#D3D3D3;
+    border: 2px solid #d3d3d3;
     margin: 7px;
     height: 52px;
     color: #0065fc;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    box-shadow: 10px 10px 10px #D9D9D9;
+    box-shadow: 10px 10px 10px #d9d9d9;
     align-items: center;
     border-radius: 25px;
-    width:300px;
+    width: 300px;
   }
   .filterWrapMobile {
     flex-direction: column;
@@ -36,22 +33,21 @@
   .footBlocSize {
     height: 300px;
   }
-  
+
   body {
     font-family: Raleway, Arial, Helvetica, sans-serif;
-     font-size: xx-large; 
+    font-size: xx-large;
   }
   .popularySize {
     height: auto;
   }
   .iconFilter {
     border-radius: 25px;
-    width:300px;
-
+    width: 300px;
   }
 
   .iconFamily {
-    border: 2px solid #D3D3D3;
+    border: 2px solid #d3d3d3;
     border-radius: 25px;
     width: 300px;
     height: 52px;
@@ -60,12 +56,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5px
-  } 
+    padding: 0.5px;
+  }
   .card1 {
     margin-bottom: 10px;
   }
-  
+
   .card2 {
     margin-top: 10px;
   }
@@ -78,14 +74,14 @@
   }
   .logo {
     margin-bottom: 7px;
-    margin-left:290px;
+    margin-left: 290px;
   }
   .searchPadding {
     padding-left: 20px;
     margin-top: 34px;
-    width:50%;
+    width: 50%;
   }
-  .linkSize2{
+  .linkSize2 {
     flex-direction: row;
   }
   .linkSizeG {
@@ -98,7 +94,7 @@
     border-top: 0;
     border-bottom: 5px solid #f2f2f2;
   }
-  .linkSize{
+  .linkSize {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -107,12 +103,12 @@
     border-top: 0;
     border-bottom: 5px solid #0065fc;
   }
-  
+
   .searchBorder {
     width: auto;
     border: none;
   }
-  
+
   .search {
     width: 200px;
     border-bottom: 1px solid #f2f2f2;
@@ -121,7 +117,7 @@
   .searchButton {
     width: 20%;
     border-radius: 15px;
-    margin-top:34px;
+    margin-top: 34px;
   }
   .deskNone {
     display: block;
@@ -129,8 +125,8 @@
   .mobilNone {
     display: none;
   }
-  .filtreMargTitle{
-    padding-left: 5%
+  .filtreMargTitle {
+    padding-left: 5%;
   }
   .economicMobile {
     margin-right: 5px;
@@ -158,26 +154,23 @@
     padding: 5%;
     width: 90%;
   }
- 
+
   .iconPetFilter {
-    border: 2px solid #D3D3D3;
-    
+    border: 2px solid #d3d3d3;
+
     border-radius: 25px;
     width: 300px;
     height: 52px;
     color: #0065fc;
     background-color: #ffffff;
     display: flex;
-    
+
     align-items: center;
-    padding: 0.5px
-  } 
-  
-  
-  
+    padding: 0.5px;
+  }
+
   body {
     margin: 0;
     padding: 0;
   }
-  
 }

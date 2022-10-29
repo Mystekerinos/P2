@@ -100,7 +100,7 @@ body {
   cursor: pointer;
 }
 
-.navBorder:hover>a {
+.navBorder:hover > a {
   color: #0065fc;
 }
 
@@ -166,17 +166,13 @@ body {
   margin-right: 20px;
 }
 
-
-
-
 .TitleText {
   color: #000000;
   margin-left: 4.5px;
   font-size: small;
-  
 }
 .economicIconFilter {
-  border: 2px solid 	#D3D3D3;
+  border: 2px solid #d3d3d3;
   margin: 7px;
   border-radius: 25px;
   width: 200px;
@@ -185,13 +181,12 @@ body {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  
+
   align-items: center;
 }
-
 
 .iconFilter {
-  border: 2px solid 	#D3D3D3;
+  border: 2px solid #d3d3d3;
   margin: 7px;
   border-radius: 25px;
   width: 200px;
@@ -200,12 +195,12 @@ body {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  
+
   align-items: center;
 }
 
 .economicIconFilter {
-  border: 2px solid 	#D3D3D3;
+  border: 2px solid #d3d3d3;
   margin: 7px;
   border-radius: 25px;
   width: 200px;
@@ -214,22 +209,21 @@ body {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  
+
   align-items: center;
 }
-.iconPetFilter{
-    border: 2px solid 	#D3D3D3;
-    margin-left: -2px;
-    border-radius: 25px;
-    width: 250px;
-    height: 52px;
-    color: #0065fc;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.iconPetFilter {
+  border: 2px solid #d3d3d3;
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 250px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .filterItem {
   display: flex;
@@ -238,8 +232,8 @@ body {
   margin-left: 20px;
 }
 
- .iconFamily {
-  border: 2px solid #D3D3D3;
+.iconFamily {
+  border: 2px solid #d3d3d3;
   border-radius: 25px;
   width: 200px;
   height: 52px;
@@ -248,29 +242,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5px
-} 
+  padding: 0.5px;
+}
 
-
-
-
-
-.iconFilterText:hover>.iconFamily {
+.iconFilterText:hover > .iconFamily {
   color: #0065fc;
   background-color: #deebff;
 }
 
-.iconFilterText:hover>.iconFilter {
+.iconFilterText:hover > .iconFilter {
   color: #0065fc;
   background-color: #deebff;
 }
 
-
-.iconFilterText:hover>.iconPetFilter {
+.iconFilterText:hover > .iconPetFilter {
   color: #0065fc;
   background-color: #deebff;
 }
-.iconFilterText:hover>.economicIconFilter {
+.iconFilterText:hover > .economicIconFilter {
   color: #0065fc;
   background-color: #deebff;
 }
@@ -286,8 +275,6 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
-
 
 /* icon */
 .information {
@@ -305,17 +292,13 @@ body {
 
 /* hebergement */
 .marseilleHebergementsSize {
- 
   flex: 2;
   height: 650px;
   margin-right: 20px;
   border-radius: 10px;
-
 }
 
-
 .popularySize {
-
   flex: 1;
   height: 650px;
   margin-left: 20px;
@@ -341,7 +324,6 @@ body {
   background-color: white;
   padding: 1%;
   border-radius: 20px;
- 
 }
 
 .hebergementsCube:hover {
@@ -359,8 +341,6 @@ body {
   height: 100px;
   border-radius: 15px 15px 0 0;
 }
-
-
 
 /* populary */
 
@@ -409,7 +389,6 @@ body {
   height: 600px;
 }
 
-
 .activitesCube {
   width: 23%;
   border-radius: 15px;
@@ -420,7 +399,6 @@ body {
   cursor: pointer;
   transform: scale(1.03);
 }
-
 
 .titleHeight {
   height: 70px;
@@ -440,8 +418,6 @@ body {
   height: 530px;
   border-radius: 15px 15px 0 0;
 }
-
-
 
 /* footer */
 .footer {
@@ -468,9 +444,6 @@ body {
 .footLinkD {
   height: 30px;
 }
-
-
-
 
 @media screen and (max-width: 1295px) {
   .linkSizeG {
