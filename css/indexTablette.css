@@ -1,6 +1,40 @@
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+
+  /*Header */
+  .logo{
+    margin-top:15px;;
+  }
+    .icon{
+       height:50px;
+       width:80px;
+       border-radius: 10px 0 0 10px;
+    }
+
+    .moreDisplay{
+      margin-top:10px;
+    }
+    .searchPadding {
+      padding-left: 20px;
+      width:230px;
+      font-size:16px;
+    }
+  .searchButton{
+    height: 50px;
+    width: 135px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .filter {
+    display: flex;
+   
+  }
+  
   .iconPetFilter {
-    border: 2px solid #d3d3d3;
+    border: 2px solid #D3D3D3;
     margin-left: -2px;
     border-radius: 25px;
     width: 190px;
@@ -12,94 +46,376 @@
     align-items: center;
   }
 
-  .filterItem {
-    margin-left: 20px;
+
+  .searchBorder{
+    width:430px;
   }
+  /* information */
+  .title500{
+    font-size: 18px;
+  }
+
+  .filterItem{
+    margin-left:25px;
+  }
+  .filterWord{
+    font-weight: bold;
+  }
+  .filtreMargTitle {
+    font-weight:bold;
+  }
+
+  .TitleMostPopulary{
+    margin-right: 46px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    margin-top: 24px;
+  }
+  .chartLogo{
+    padding:0px;
+  }
+
+
+   /*Hebergement*/
+
+   
+  .hebergementsBloc:nth-child(1){
+    order:2;
+    flex: none;
+    height:600px;
+    width: 810px;
+    margin-right: 0;
+    padding: 5%;
+    margin-left:0px;
+  }
+
+  .hebergementsImage{
+    object-fit: cover;
+    width: 250px;
+    height: 130px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .hebergementsDetailsCube {
+    padding-right: 2px;
+    padding-bottom: 5px;
+}
+
+  
+  .hebergementsCube{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 9px;
+    margin-right:9px;
+    margin-left:9px;
+    margin-top:9px;
+    margin-bottom:9px;
+  }
+  .hebergementsCubeAubergeDeLaCanebiereCube{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 9px;
+    margin:4px;
+  }
+
+  .hebergementsCubeAubergeDeLaMer{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 9px;
+    margin:4px;
+  }
+  .hebergementTitle {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left:0px;
+  }
+  .card1{
+   display:flex;
+   justify-content: normal;
+   flex-wrap: nowrap;
+   width:800px;
+   padding:0px;
+   margin-bottom:0px;
+  }
+  .card2{
+    display:flex;
+    justify-content: normal;
+    flex-wrap: nowrap;
+    width:800px;
+    padding:0px;
+    margin-bottom:0px;
+    margin-top:10px;
+  }
+  /* Populaire */
+
+
+  .titleCardPopulaire{
+    font-weight: bold;
+    font-size:15px;
+    margin-top:33px;
+  }
+
+  .starsPopulaire{
+    margin-bottom:23px;
+    font-size:11px;
+  }
+  .starsChambresHotesAuCoeurDeLeauPopulaire{
+    margin-top:23px;
+    margin-bottom:23px;
+    font-size:11px;
+  }
+
+  .titleCardPopulaireChambresHotesAuCoeurDeLeauPopulaire{
+    
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 27px
+  }
+
+  .subtitleCardChambresHotesAuCoeurDeLeauPopularize{
+    font-size: 12px;
+    margin-bottom: 50px;
+    margin-top: 9px;
+  }
+
+  .subtitleCardPopularize{
+    font-size:12px;
+    margin-bottom: 64px;
+  }
+  
+  .titleCardHebergementAubergeDeLaCannebiere {
+    font-size:18px;
+  }
+
+
+  .subtitleCardHebergementAubergeDeLaCannebiere {
+    font-size: 18px;
+    padding-top: 4px;
+  }
+
+
+  
+
+.titleCardHebergementHotelDuPort {
+   font-size: 18px;
+}
+
+.subtitleCardHebergementHotelDuPort{
+ padding-top: 4px;
+ font-size:18px;
+}
+
+.titleCardHebergement{
+  font-size: 18px;
+}
+
+.subtitleCardHebergement{
+  font-size:18px;
+}
+
+.starsHebergement{
+  font-size:12px;
+}
+  .populairesImage{
+    width:123px;
+    height:143px;
+  }
+
+  .populairesChambresHotesAuCoeurDeLeau{
+    background-color: white;
+    height: 154px;
+    border-radius: 20px;
+    padding:0px;
+    width:250px;
+  }
+  .populairesCube{
+    background-color: white;
+    height: 154px;
+    border-radius: 20px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-left:8px;
+    padding-bottom:0px;
+    width:250px;
+  }
+
+  .aroundColumnPopularize{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .populairesBloc:nth-child(2){
+    order:1;
+    margin-top: 22px;
+    width:812px;
+    margin-right:0px;
+    margin-left: 0;
+    padding: 5%;
+    padding-top:0%;
+  }
+  .writeSize{
+    
+    font-weight:900;
+    
+  }
+
+ 
 
   .filterWrapMobile {
     align-items: flex-start;
   }
 
-  .iconFilterText {
-    margin-bottom: 20px;
-  }
+
 
   #marseilleHebergements {
     flex-direction: column-reverse;
     width: 100%;
   }
 
-  .populairesBloc {
-    flex: none;
-    width: 90%;
-    margin-left: 0;
-    padding: 5%;
-  }
+/*Activity*/
 
-  .hebergementsBloc {
-    flex: none;
-    width: 90%;
-    margin-right: 0;
-    margin-top: 50px;
-    padding: 5%;
-  }
+.activitesBloc{
+  height: 300px;
+  width:900px;
 }
 
-@media screen and (max-width: 800px) {
-  .linkSize2 {
-    width: 90%;
+.activitesCube{
+  width:180px;
+}
+  .activitesImage{
+    height:230px;
+    width:175px;
   }
 
-  .linkSizeG {
-    margin-left: 20%;
-  }
-
-  .hebergementsBloc {
-    height: auto;
-    margin-top: 200px;
-  }
-
-  .card1 {
-    flex-direction: column;
-    margin-bottom: 0;
-  }
-
-  .card2 {
-    flex-direction: column;
-    margin-top: 0;
-  }
-
-  .hebergementsCube {
+  .activitesParcNationalDesCalanquesImage {
+    object-fit: cover;
     width: 100%;
-    margin-bottom: 50px;
+    height: 230px;
+    border-radius: 15px 15px 0 0;
   }
-
-  .hebergementsDetailsCube {
-    min-height: auto;
+  
+  .activitesTitreVieuxPort{
+    font-weight: bold;
+    font-size:18px;
+    padding-right:0px;
+    padding-top:23px;
+    margin-right:23px;
   }
-
-  .activitesBloc {
-    flex-direction: column;
-    height: auto;
+  .activitesTitreFortDePomégues{
+    font-weight: bold;
+    font-size:18px;
+    padding-right:0px;
+    padding-top:23px;
+    margin-right:3px;
   }
-
-  .activitesCube {
-    width: 100%;
-    margin-bottom: 50px;
+  .activitesTitreParcNationalDesCalanques{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    margin-right: 0px;
+    padding-left: 12px;
+    padding-right: 15px;
   }
-
-  .activitesImage {
-    height: 300px;
-  }
-
-  .footer {
-    flex-direction: column;
-    align-items: flex-start;
-    height: auto;
+  .activitesTitreNotreDameDeLaGarde{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 8px;
     padding-left: 20px;
+    padding-right: 10px;
+    
   }
 
-  .footBlocMarge {
-    margin-top: 233px;
+  .footer{
+    height: 235px;
+  }
+
+  .about{
+    margin-top: 34px;
+    font-size:19px;
+    margin-left: 103px;
+  }
+  
+  .fonctionnementLinkD{
+    width:200px;
+    font-size:14px;
+    height:0px;
+    margin-left: 103px;
+  }
+
+  .fooctionnementLinkD2{
+ 
+    margin-top:30px;
+    font-size:14px;
+    margin-left: 103px;
+  }
+
+  .fooctionnementLinkD3{
+   
+    margin-top:10px;
+    font-size:14px;
+    width:250px;
+    margin-left: 103px;
+  }
+
+  .ourHebergement{
+    margin-left:19px;
+    margin-top:34px;
+    font-size:19px;
+  }
+
+  .hebergementLinkD {
+    width:200px;
+    font-size:17px;
+    height:0px;
+    margin-left:19px;
+  }
+
+  .hebergementLinkD2{
+    margin-left:19px;
+    margin-top:30px;
+    font-size:17px;
+  }
+
+  .assistanceMarge{
+    margin-left:65px;
+    margin-top:34px;
+    font-size:19px;
+  }
+
+  .assistanceLinkD{
+    width:200px;
+    font-size:17px;
+    height:0px;
+    margin-left:65px;
+  }
+
+  .assistanceLinkD2{
+    margin-left:65px;
+    margin-top:30px;
+    font-size:17px;
   }
 }
+
+
+
+  
+  
+  
+  
