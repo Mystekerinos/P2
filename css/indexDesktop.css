@@ -2,6 +2,16 @@
 
 body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
+  max-width: 1340px;
+  padding-right:50px;
+  padding-left:50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.chartLogo{
+  font-size:18px;
 }
 
 .center {
@@ -13,7 +23,7 @@ body {
 
 .writeSize{
   font-weight:900;
-  font-size: 13px;
+  font-size: 18px;
 }
 .paraTitle{
   margin-left: 39px;
@@ -23,7 +33,7 @@ body {
   padding-left:17px;
   margin-top:20px;
   margin-bottom:0px;
-  font-size:26px;
+  font-size:22px;
 }
 .around {
   display: flex;
@@ -31,6 +41,13 @@ body {
   align-items: center;
 }
 
+.betweenPopulary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:10px;
+}
 
 .between {
   display: flex;
@@ -43,7 +60,6 @@ body {
 .centerColumn {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -68,10 +84,17 @@ body {
 }
 .TitleMostPopulary{
   margin-right: 26px;
-  font-size:26px;
-  margin-bottom: 58px;
-  margin-top:24px;
+  font-size:22px;
+  margin-bottom: 28px;
+  margin-top:34px;
 }
+
+.filtreMargTitle{
+  font-size:18px;
+}
+
+
+
 
 .boldText {
   font-weight: bold;
@@ -114,6 +137,7 @@ body {
 
 .linkColor {
   color: black;
+  font-size:16px;
 }
 
 .navBorder {
@@ -142,15 +166,15 @@ nav{
 /*HEADER*/
 
 .findHebergementTitle{
-  font-size:24px;
+  font-size:22px;
   margin-left:35px;
 }
 
 .downTownNatureCenter{
-  margin-top:13px;
+  margin-top:16px;
   margin-bottom:23px;
   margin-left:35px;
-  font-size:20px;
+ 
 }
 .deskNone {
   display: none;
@@ -159,16 +183,13 @@ nav{
 .searchBorder {
   display:flex;
   justify-content:start;
-  border: 0.4px solid #f2f2f2;
-  width:540px;
+  border: 0px solid #f2f2f2;
   border-radius:35px;
   margin-left:35px;
 }
 
 .searchPadding {
-  padding-left: 40px;
-  width:320px;
-  font-size:20px;
+  padding-left:10px;
 }
 
 .search {
@@ -181,15 +202,16 @@ nav{
 
 .icon {
   height: 50px;
-  width: 100px;
+  width:49px;
   border-radius: 10px 0 0 10px;
 }
 
 
 
 .searchButton {
-  height: 50px;
-  width: 130px;
+  height: 49px;
+  width:132px;
+  font-size:18px;
   color: white;
   cursor: pointer;
   border-radius: 0 10px 10px 0;
@@ -225,14 +247,14 @@ nav{
 }
 
 .title500{
-  margin-left:23px;
+  margin-left:13px;
   margin-bottom:23px;
-  font-size:26px;
+  font-size:16px;
 }
 
 .filter {
   display: flex;
-  margin-left: 23px;
+  justify-content:space-between;
 }
 
 .filterWord{
@@ -241,10 +263,7 @@ nav{
   font-weight: bold;
 }
 
-.filterMargTitle {
-  margin-right: 20px;
-  
-}
+
 
 
 
@@ -281,19 +300,19 @@ margin-top: 35px;
 margin-bottom: 35px;
 border-radius: 25px;
 width: auto;
-height: 45px;
+height: 50px;
 align-items: center;
 color: #0065fc;
-margin-left:125px;
-padding-left:13px;
-padding-right:13px;
+margin-left:20px;
+padding-left:27px;
+padding-right:27px;
 }
 
 .filtreMargTitle{
   margin-top: 50px;
   margin-left: 38px;
   font-weight:bold;
-  font-size:26px;
+  font-size:18px;
 }
 
 .filterRegroup{
@@ -321,21 +340,20 @@ padding-right:13px;
 .marseilleHebergementsSize {
  
   flex: 2;
-  height: 68em;
+  height: 626px;
   margin-right: 20px;
   border-radius: 10px;
 
 }
 
 .titleCardHebergementAubergeDeLaCannebiere{
-  font-size: 11px;
   font-weight:bold;
   padding-top:13px;
-  font-size: 24px;
+  font-size: 16px;
   
   }
   .subtitleCardHebergementAubergeDeLaCannebiere{
-    font-size:22px;
+    font-size:14px;
     padding-top:5px;
   padding-bottom: 5px;
   }
@@ -343,9 +361,42 @@ padding-right:13px;
 .titleCardHebergementHotelDuPort{
     font-weight:bold;
     padding-top:13px;
-    font-size: 24px;
+    font-size: 16px;
     
   }
+
+  .titleCardHebergementHotelDeLaMer{
+    font-weight:bold;
+    padding-top:13px;
+    font-size: 16px;
+    
+  }
+  .subtitleCardHebergementHotelDeLaMer {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.titleCardHebergementAubergeLePanier{
+  font-weight: bold;
+  padding-top: 13px;
+  font-size: 16px;
+}
+.subtitleCardHebergementAubergeLePanier{
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.titleCardHebergementHotelChezAmina{
+  font-weight: bold;
+  padding-top: 13px;
+  font-size: 16px;
+}
+.subtitleCardHebergementHotelChezAmina{
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
   .card1{
     padding-bottom:1px;
@@ -363,18 +414,18 @@ padding-right:13px;
 .subtitleCardHebergementHotelDuPort{
   padding-top:7px;
   padding-bottom: 7px;
-      font-size:22px;
+      font-size:14px;
       margin-right:50px;
     }
 .titleCardHebergement{
-padding-top:13px;
+padding-top:20px;
 
 font-weight:bold;
-font-size:23px;
+font-size:16px;
 
 }
 .subtitleCardHebergement{
-  font-size:25px;
+  font-size:14px;
   padding-top:7px;
   padding-bottom: 7px;
 }
@@ -382,47 +433,52 @@ font-size:23px;
 .popularySize {
 
   flex: 1;
-  height: 1040px;
+  height: 626px;
+  width:40%;
   margin-left: 20px;
   border-radius: 10px;
+  min-height: auto;
 }
 
 .starsHebergement{
   display: flex;
-  font-size: 22px;
+  font-size: 15px;
+  margin-bottom:1%;
 }
 
 .hebergementsBloc {
-  padding-left:20px;
-  padding-right:20px;
+  padding:20px;
   margin-left:28px;
 }
 
 
 .hebergementsCube {
-  width: 30%;
-  height: auto;
+  width: 29%;
+  height: 199px;
   background-color: white;
-  padding: 1%;;
+  padding:1%;
   border-radius: 20px;
+  font-size:16px;
  
 }
 
 .hebergementsCubeAubergeDeLaCanebiereCube{
-  width: 30%;
-  height: auto;
+  width: 29%;
+  height: 199px;
   background-color: white;
-  padding: 1%;;
-  border-radius: 20px
+  padding: 1%;
+  border-radius: 20px;
+  font-size:16px;
  
 }
 
 .hebergementsCubeAubergeDeLaMer{
-  width: 30%;
-  height: auto;
+  width: 29%;;
+  height: 199px;
   background-color: white;
-  padding: 1%;;
-  border-radius: 20px
+  padding: 1%;
+  border-radius: 20px;
+  font-size:16px;
 }
 
 .hebergementsCube:hover {
@@ -435,13 +491,13 @@ font-size:23px;
 .hebergementsImage {
   object-fit: cover;
   width: 100%;
-  height: 230px;
+  height: 124px;
   border-radius: 15px 15px 0 0;
 }
 .moreDisplay{
-  margin-left:10px;
+  margin-left:15px;
   margin-bottom: 10px;
-  font-size:26px;
+  font-size:18px;
 }
 
 
@@ -449,38 +505,42 @@ font-size:23px;
 /* populary */
 
 .populairesBloc {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right:20px;
+  padding:20px;
 }
 
-.popularySize{
-  min-height: auto;
-    padding: 20px;
-}
 
 
 .populairesBloc2 {
   margin-bottom: 22px;
 }
 
-.populairesChambresHotesAuCoeurDeLeau{
-  background-color: white;
-  height: auto;
-  padding: 3% 0 3% 3%;
-  border-radius: 20px;
-}
 
-.populairesCube {
+
+.populairesCubeHotelBleuEtBlanc{
   background-color: white;
-  height: auto;
+  height: 144px;
   padding: 1% 0 1% 1%;
   border-radius: 20px;
 }
 
+
+.populairesCubeHotelLeSoleilDuMatin{
+  background-color: white;
+  height: 144px;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+}
+
+.populairesCubeChambresHotesAuCoeurDeLeau{
+  background-color: white;
+  height: 144px;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+}
 .subtitleCardPopularize{
+    font-size:88%;
     margin-top: 7px;
-    margin-bottom:64px;
+    margin-bottom:44px;
 }
 
 .starsChambresHotesAuCoeurDeLeauPopulaire{
@@ -490,20 +550,29 @@ font-size:23px;
 }
 
 .titleCardPopulaireChambresHotesAuCoeurDeLeauPopulaire{
-  
+  padding-right:35px;
+  font-size:16px;
   font-weight: bold;
-  font-size: 32px;
+  
 }
 
 .subtitleCardChambresHotesAuCoeurDeLeauPopularize{
   margin-top: 7px;
   margin-bottom:44px;
+  font-size:88%;
 }
 
 
 .titleCardPopulaire{
   font-weight: bold;
-  font-size: 39px
+  font-size:16px;
+  padding-right:35px;
+}
+.titleCardPopulaireHotelBleuEtBlanc{
+  font-weight: bold;
+  padding-right:5px;
+  font-size:16px;
+  margin-top:3px;
 }
 
 .starsPopulaire{
@@ -524,10 +593,18 @@ font-size:23px;
 
 .populairesImage {
   object-fit: cover;
-  width: 35%;
-  height: 260px;
+  width: 40%;
+  height: 144px;
   border-radius: 15px 0 0 15px;
 }
+
+.populairesHotelBleuEtBlancImage {
+  object-fit: cover;
+  width: 44%;
+  height: 144px;
+  border-radius: 15px 0 0 15px;
+}
+
 
 /* actiity */
 #Activites {
@@ -538,17 +615,17 @@ font-size:23px;
 
 .activitesBloc {
   margin-bottom: 10px;
-  height: 600px;
   margin-left:23px;
   margin-right:10px;
 }
 
 .paraTitleDesktop{
-  margin-left:33px;
+  margin-left:30px;
 }
 
 .activitesCube {
   width: 23%;
+  height:444.51px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
@@ -564,54 +641,45 @@ font-size:23px;
   height: 70px;
 }
 
-.activitesTitreFortDePomégues{
+.activitesTitreFortDePomegues{
   font-weight: bold;
-  font-size: 22px;
+  font-size: 16px;
   padding-top: 23px;
-  padding-left: 2px;
-  padding-right: 160px;
-  padding-bottom: 23px;
-  
+  padding-right:105px;
 }
 
 .activitesTitreParcNationalDesCalanques{
   font-weight: bold;
-  font-size: 22px;
+  font-size: 16px;
   padding-top: 23px;
-  padding-bottom: 23px;
-  padding-left: 4px;
-  padding-right: 63px;
+  padding-right: 30px;
 }
 .activitesTitreVieuxPort{
   font-weight: bold;
-  font-size: 22px;
+  font-size: 16px;
   padding-top: 23px;
-  padding-left: 4px;
-  padding-right: 203px;
-  padding-bottom: 23px;
-  
+  padding-right:170px;
 }
 
 .activitesTitreNotreDameDeLaGarde{
   font-weight: bold;
-  font-size: 22px;
+  font-size: 16px;
   padding-top: 23px;
-  padding-left: 4px;
-  padding-right: 83px;
-  padding-bottom: 23px;
+  padding-right: 60px;
 }
 .activitesImage {
   object-fit: cover;
   width: 100%;
-  height: 530px;
+  height:385px;
   border-radius: 15px 15px 0 0;
 }
 
 .activitesParcNationalDesCalanquesImage {
   object-fit: cover;
   width: 100%;
-  height: 530px;
+  height: 389px;
   border-radius: 15px 15px 0 0;
+  
 }
 
 .hebergementsDetailsCube{
@@ -621,10 +689,11 @@ font-size:23px;
 
 
 /* footer */
-.footer {
+footer {
   display:flex;
   margin-left:24px;
   margin-right:24px;
+  background-color: #f2f2f2;
 }
 
 .footBlocSize {
@@ -632,31 +701,26 @@ font-size:23px;
 }
 
 .ourHebergement{
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
-  margin-left: 340px;
+  margin-left: 140px;
 }
 
 .assistanceMarge {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
-  margin-left: 353px;
+  margin-left: 233px;
 }
 
-.assistanceFootMarge {
-  
-}
-.hebergementFootMarge {
-  
-}
+
 
 .about{
-  font-size: 23px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
-  margin-left:123px;
+  margin-left:80px;
 }
 .aboutMarge {
   
@@ -674,18 +738,18 @@ font-size:23px;
 .fonctionnementLinkD {
   height: 30px;
   margin-top:14px;
-  margin-left:123px;
-  font-size:18px;
+  margin-left:80px;
+  font-size:16px;
 }
 .fooctionnementLinkD2{
-  margin-left:123px;
-  font-size:18px;
+  margin-left:80px;
+  font-size:16px;
 }
 
 .fooctionnementLinkD3{
-  margin-left:123px;
+  margin-left:80px;
   margin-top:9px;
-  font-size:18px;
+  font-size:16px;
 }
 .footLinkD {
   height: 30px;
@@ -693,25 +757,29 @@ font-size:23px;
 
 .hebergementLinkD {
   height: 30px;
-  margin-left:340px;
+  margin-left:140px;
   margin-top:14px;
-  font-size:20px;
+  font-size:16px;
 }
 .hebergementLinkD2 {
   height: 30px;
-  margin-left:340px;
-  font-size:18px;
+  margin-left:140px;
+  font-size:16px;
 }
 
 .assistanceLinkD {
   height: 30px;
-  margin-left:353px;
+  margin-left:233px;
   margin-top: 14px;
-  font-size:18px;
+  font-size:16px;
 }
 
 .assistanceLinkD2 {
   height: 30px;
-  margin-left:353px;
-  font-size:18px;
+  margin-left:233px;
+  font-size:16px;
+}
+
+em{
+  font-weight: bold;
 }

@@ -4,7 +4,8 @@
 
   /*Header */
   .logo{
-    margin-top:15px;;
+    margin-top:15px;
+    margin-left:2px;
   }
     .icon{
        height:50px;
@@ -12,9 +13,7 @@
        border-radius: 10px 0 0 10px;
     }
 
-    .moreDisplay{
-      margin-top:10px;
-    }
+    
     .searchPadding {
       padding-left: 20px;
       width:230px;
@@ -32,7 +31,40 @@
     display: flex;
    
   }
+
+  .logo{
+    margin-left:0px;
+  }
   
+.filterItem{
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.linkSizeG{
+ margin-left:0;
+}
+
+.linkSize{
+  padding:0px;
+}
+
+.linkColor{
+  margin-left:80px;
+}
+.downTownNatureCenter{
+  font-size: 16.75px;
+  margin-left:2px;
+}
+
+.findHebergementTitle{
+   margin-left:2px;
+}
+
+.information{
+  margin-left:0px;
+}
+
   .iconPetFilter {
     border: 2px solid #D3D3D3;
     margin-left: -2px;
@@ -49,20 +81,26 @@
 
   .searchBorder{
     width:430px;
+    margin-left:2px;
   }
   /* information */
-  .title500{
-    font-size: 18px;
-  }
+
+ 
 
   .filterItem{
-    margin-left:25px;
+    margin-left:19px;
   }
   .filterWord{
     font-weight: bold;
+    font-size:17px;
   }
   .filtreMargTitle {
     font-weight:bold;
+    margin-left:0px;
+  }
+
+  .filterRegroup{
+    margin-left:2px;
   }
 
   .TitleMostPopulary{
@@ -83,7 +121,7 @@
     order:2;
     flex: none;
     height:600px;
-    width: 810px;
+    width: 90%;
     margin-right: 0;
     padding: 5%;
     margin-left:0px;
@@ -124,7 +162,7 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-    border-radius: 9px;
+    border-radius: 15px;
     margin:4px;
   }
 
@@ -139,6 +177,13 @@
     border-radius: 9px;
     margin:4px;
   }
+
+  .hebergementTitle{
+    margin-left: 1px;
+    padding-left: 2px;
+   
+  }
+
   .hebergementTitle {
     margin-top: 0px;
     margin-bottom: 10px;
@@ -161,13 +206,18 @@
     margin-bottom:0px;
     margin-top:10px;
   }
+
+  .moreDisplay{
+    margin-top:10px;
+  }
   /* Populaire */
 
 
   .titleCardPopulaire{
     font-weight: bold;
-    font-size:15px;
+    font-size:14px;
     margin-top:33px;
+    padding-right:15px;
   }
 
   .starsPopulaire{
@@ -183,18 +233,18 @@
   .titleCardPopulaireChambresHotesAuCoeurDeLeauPopulaire{
     
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 27px
   }
 
   .subtitleCardChambresHotesAuCoeurDeLeauPopularize{
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 50px;
     margin-top: 9px;
   }
 
   .subtitleCardPopularize{
-    font-size:12px;
+    font-size:13px;
     margin-bottom: 64px;
   }
   
@@ -231,8 +281,14 @@
 .starsHebergement{
   font-size:12px;
 }
+
+.betweenPopulary{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:10px;
+  padding-left:0px;
+}
   .populairesImage{
-    width:123px;
     height:143px;
   }
 
@@ -262,7 +318,7 @@
   .populairesBloc:nth-child(2){
     order:1;
     margin-top: 22px;
-    width:812px;
+    width:90%;
     margin-right:0px;
     margin-left: 0;
     padding: 5%;
@@ -276,6 +332,17 @@
 
  
 
+  .populairesCubeChambresHotesAuCoeurDeLeau{
+    width:29%;
+  }
+
+  .populairesCubeHotelLeSoleilDuMatin{
+   width:29%;
+  }
+
+  .populairesCubeHotelBleuEtBlanc{
+    width:29%
+  }
   .filterWrapMobile {
     align-items: flex-start;
   }
@@ -289,17 +356,35 @@
 
 /*Activity*/
 
+.paraTitleDesktop {
+  margin-left: 0px;
+}
 .activitesBloc{
   height: 300px;
-  width:900px;
+  padding:0px;
+  margin-left:0px;
+  margin-right:0px;
 }
 
 .activitesCube{
   width:180px;
+  height:267px;
 }
   .activitesImage{
-    height:230px;
+    height:210px;
     width:175px;
+  }
+
+  .activitesTitreFortDePomegues{
+    object-fit: cover;
+    width: 100%;
+    height: 230px;
+    border-radius: 15px 15px 0 0;
+    font-size:16px;
+    padding-left:40px;
+    padding-bottom:10px;
+    padding-top:20px;
+    padding-right:0px;
   }
 
   .activitesParcNationalDesCalanquesImage {
@@ -311,21 +396,25 @@
   
   .activitesTitreVieuxPort{
     font-weight: bold;
-    font-size:18px;
-    padding-right:0px;
-    padding-top:23px;
-    margin-right:23px;
+    font-size: 16px;
+    margin-right: 50px;
+    padding-left: 1px;
+    padding-top:18px;
+    padding-bottom: 20px;
+    padding-right: 15px;
   }
   .activitesTitreFortDePomégues{
     font-weight: bold;
-    font-size:18px;
-    padding-right:0px;
-    padding-top:23px;
-    margin-right:3px;
+    font-size: 16px;
+    margin-right: 50px;
+    padding-left: 1px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    padding-right: 15px;
   }
   .activitesTitreParcNationalDesCalanques{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 12px;
     padding-bottom: 9px;
     margin-right: 0px;
@@ -334,36 +423,50 @@
   }
   .activitesTitreNotreDameDeLaGarde{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     padding-top: 13px;
     padding-bottom: 8px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 60px;
     
   }
 
-  .footer{
+  .populairesCubeHotelLeSoleilDuMatin{
+    padding: 0.5% 0 0.5% 0.5%;
+  }
+
+  .populairesCubeChambresHotesAuCoeurDeLeau {
+    padding: 0.5% 0 0.5% 0.5%;
+  }
+
+  .populairesCubeHotelBleuEtBlanc{
+    padding: 0.5% 0 0.5% 0.5%;
+  }
+
+  footer{
     height: 235px;
+    margin-left:0px;
+    margin-right:0px;
   }
 
   .about{
     margin-top: 34px;
     font-size:19px;
-    margin-left: 103px;
+    margin-left: 73px;
   }
   
   .fonctionnementLinkD{
     width:200px;
     font-size:14px;
     height:0px;
-    margin-left: 103px;
+    margin-left: 73px;
   }
 
   .fooctionnementLinkD2{
  
     margin-top:30px;
     font-size:14px;
-    margin-left: 103px;
+    margin-left: 73px;
   }
 
   .fooctionnementLinkD3{
@@ -371,11 +474,11 @@
     margin-top:10px;
     font-size:14px;
     width:250px;
-    margin-left: 103px;
+    margin-left: 73px;
   }
 
   .ourHebergement{
-    margin-left:19px;
+    margin-left:0px;
     margin-top:34px;
     font-size:19px;
   }
@@ -384,17 +487,17 @@
     width:200px;
     font-size:17px;
     height:0px;
-    margin-left:19px;
+    margin-left:0px;
   }
 
   .hebergementLinkD2{
-    margin-left:19px;
+    margin-left:0px;
     margin-top:30px;
     font-size:17px;
   }
 
   .assistanceMarge{
-    margin-left:65px;
+    margin-left:55px;
     margin-top:34px;
     font-size:19px;
   }
@@ -403,13 +506,17 @@
     width:200px;
     font-size:17px;
     height:0px;
-    margin-left:65px;
+    margin-left:55px;
   }
 
   .assistanceLinkD2{
-    margin-left:65px;
+    margin-left:55px;
     margin-top:30px;
     font-size:17px;
+  }
+
+  em{
+    font-weight: bold;
   }
 }
 
