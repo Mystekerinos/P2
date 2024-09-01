@@ -2,6 +2,8 @@
 
 Formation Développeur d'application - JavaScript React
 
+BOOKI
+
 Le projet consiste à transformer une maquette en site web en utilisant HTML et CSS
 
 Deux maquettes ont été réalisées : l’une desktop et l’autre mobile. Le site devra être également adapté aux formats tablette. Pour les tablettes, nous sommes libres de faire les adaptations nécessaires. Il est important qu’aucun élément ne soit coupé, et que le texte ait une taille suffisante.
